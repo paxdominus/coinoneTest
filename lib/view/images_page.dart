@@ -41,14 +41,14 @@ class _ImagesPageState extends State<ImagesPage> {
                           SystemNavigator.pop();
                         },
                         child: Text(
-                          "exit",
+                          "Exit",
                           style: CustomStyle().getCStyle(),
                         )),
                     TextButton(
                       onPressed: () {
                         Navigator.pop(context);
                       },
-                      child: Text("no", style: CustomStyle().getCStyle()),
+                      child: Text("Cancel", style: CustomStyle().getCStyle()),
                     )
                   ],
                 ));
@@ -114,14 +114,14 @@ class _ImagesPageState extends State<ImagesPage> {
                                             builder: (context) => const LoginPage()));
                                   },
                                   child: Text(
-                                    "signout",
+                                    "Signout",
                                     style: CustomStyle().getCStyle(),
                                   )),
                               TextButton(
                                 onPressed: () {
                                   Navigator.pop(context);
                                 },
-                                child: Text("no",
+                                child: Text("Cancel",
                                     style: CustomStyle().getCStyle()),
                               )
                             ],

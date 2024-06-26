@@ -38,14 +38,14 @@ class _SignUpPageState extends State<SignUpPage> {
                           SystemNavigator.pop();
                         },
                         child: Text(
-                          "exit",
+                          "Exit",
                           style: CustomStyle().getCStyle(),
                         )),
                     TextButton(
                       onPressed: () {
                         Navigator.pop(context);
                       },
-                      child: Text("no", style: CustomStyle().getCStyle()),
+                      child: Text("Cancel", style: CustomStyle().getCStyle()),
                     )
                   ],
                 ));
